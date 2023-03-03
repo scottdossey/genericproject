@@ -15,4 +15,5 @@ public class Box<T> {
 	public void setStoredItem(T storedItem) {
 		this.storedItem = storedItem;
 	}
+	
 }

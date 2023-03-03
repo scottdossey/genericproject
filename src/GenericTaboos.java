@@ -36,8 +36,7 @@ public class GenericTaboos<V> {
 		List<String> myList = new ArrayList<>();
 		System.out.println(myList instanceof ArrayList);
 		System.out.println(myList instanceof ArrayList<String>);
-		
-		
+				
 		//5. You cannot create arrays of parameterized types.
 		V[] myArray; //Use an ArrayList<V> instead.
 		
